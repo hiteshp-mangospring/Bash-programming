@@ -1,2 +1,34 @@
 1. cat command
 - This command prints the content of file. E.g cat filename.txt
+
+
+2. chmod command
+- This comamnd is used to change file permission
+
+r - read permission
+w - write permission
+x - execute permission
+
++ - Add permission
+- - remove permission
+= - set the permission
+
+u - user/owner
+g - group
+o - others
+a - all
+
+E.g - chmod u+x filename.txt
+
+3. output redirection
+
+e.g echo hello world > hello.txt
+
+This example shows that how a command result can be stored in file. Here greater than symbol overrides the file content and store command result. If you don't want overide file content or likely you want append the content into file. then you can use double greater than operator (e.g echo hello world >> hello.txt). Real life scenarios would be logging into file
+
+e.g
+  echo hello >> hello.txt
+  echo world >> hello.txt
+
+4. echo $?
+Excutes last command

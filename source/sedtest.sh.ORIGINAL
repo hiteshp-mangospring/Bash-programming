@@ -1,0 +1,11 @@
+#!/bin/bash
+
+In the serene forest, a gentle whisper echoed through the tall trees. The whisper carried secrets of ancient times, and as the wind whispered softly, it seemed as if the very leaves joined in the mysterious chorus, whispering tales of forgotten realms. Amidst the tranquility, the persistent whisper lingered, leaving an enchanting trace in the air, inviting curious souls to listen closely to the repetitive whisper that danced with the rustling leaves.
+
+# This command replaces whisper word with murur and returns the content without changing file original content
+# sed 's/whisper/murmur/g' sedtext.sh
+
+
+# sed i.ORIGINAL 's/whisper/murmur/g' sedtext.sh
+
+
