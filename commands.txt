@@ -1,0 +1,2 @@
+1. cat command
+- This command prints the content of file. E.g cat filename.txt
